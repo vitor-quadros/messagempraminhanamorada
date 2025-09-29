@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Arial', cursive;
+  background: linear-gradient(to bottom, #ffb6f9, #d28bfa);
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ffebf9;
+  text-shadow: 2px 2px #c44ac0;
+}
+
+.foto {
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  margin: 20px auto;
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px #ff69b4;
+}
+
+.mensagem {
+  font-size: 1.3em;
+  line-height: 1.8;
+  margin: 20px auto;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.botao {
+  display: inline-block;
+  background: #ff69b4;
+  padding: 15px 25px;
+  margin: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: #c44ac0;
+  transform: scale(1.05);
+}
+
+/* Corações animados */
+.heart {
+  position: fixed;
+  top: -10px;
+  color: #ff69b4;
+  font-size: 24px;
+  animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
